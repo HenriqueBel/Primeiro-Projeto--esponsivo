@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.container {
+
+    height: 100vh;
+    width: 100vw;
+    height: 20px;
+    font-weight: 400;
+
+}
+
+.container-left {
+
+    display: inline-block;
+    width: 40%;
+    line-height: 33px;
+    font-weight: 400;
+
+
+
+
+}
+
+.img {
+    position: relative;
+    width: 446px;
+    height: 466px;
+    top: 143px;
+    left: 84px;
+    color: #6FBF44;
+
+
+}
+
+.container-right {
+
+    display: inline-block;
+    width: 59%;
+
+}
+
+p {
+
+    width: 39%;
+    font-size: 18px;
+    width: 493px;
+    height: 99px;
+    left: 14%;
+    position: relative;
+
+}
+
+h1 {
+
+    font-weight: 700;
+    width: 582px;
+    height: 164px;
+    left: 14%;
+    position: relative;
+    top: 5px;
+    font-size: 48px;
+}
+
+header {
+
+    cursor: pointer;
+    top: 3%;
+    position: absolute;
+
+}
+
+button {
+
+    cursor: pointer;
+    margin-left: -7px;
+    background-color: #6FBF44;
+    color: #FFFF;
+    width: 77px;
+    height: 36px;
+    border-radius: 6PX;
+    border: none;
+
+}
+
+a {
+
+    font-size: 14px;
+    margin: 6px 15px 0 23px;
+
+}
+
+.roda-pe {
+
+    cursor: pointer;
+    color: #6FBF44;
+    font-size: 18px;
+    line-height: 27px;
+    left: 11%;
+    position: relative;
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    button {
+
+        cursor: pointer;
+        width: 91px;
+        height: 31px;
+        top: -4px;
+        border-radius: 6px;
+        border: 1px;
+        left: 295px;
+        position: absolute;
+
+
+    }
+
+    .container-left {
+
+
+        display: block;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .container-right {
+
+        display: block;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .topo {
+
+        display: none;
+
+    }
+
+    .img {
+
+
+        width: 312px;
+        height: 288px;
+        top: 512px;
+        left: 43px;
+
+    }
+
+    h1 {
+
+        width: 278px;
+        height: 60px;
+        top: -160px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        
+
+    }
+
+    p {
+
+        width: 304px;
+        height: 165px;
+        top: -140px;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+
+    }
+
+    .roda-pe{
+
+width: 112px;
+height: 27px;
+top: -120px;
+display: flex;
+left: 130px;
+    }
+
+}
