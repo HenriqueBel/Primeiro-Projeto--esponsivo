@@ -164,7 +164,7 @@ a {
         text-align: center;
         font-size: 30px;
         line-height: 30px;
-        
+
 
     }
 
@@ -179,13 +179,13 @@ a {
 
     }
 
-    .roda-pe{
+    .roda-pe {
 
-width: 112px;
-height: 27px;
-top: -120px;
-display: flex;
-left: 130px;
+        width: 112px;
+        height: 27px;
+        top: -120px;
+        display: flex;
+        left: 130px;
     }
 
 }
